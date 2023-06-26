@@ -1,2 +1,2 @@
 # Landing Page
-#For Beauty Salon.
+# For Beauty Salon.
