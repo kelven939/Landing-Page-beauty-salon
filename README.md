@@ -1,4 +1,2 @@
-# Landing
-# Page for
-# Beauty
-# Salon.
+# Landing Page
+#For Beauty Salon.
