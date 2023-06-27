@@ -206,7 +206,7 @@ input{
   cursor: pointer;
 }
 .title-modalwindow{
-    color: red;
+    color: red !important;
 }
 
 /*.despedacar {
