@@ -208,6 +208,12 @@ input{
 .title-modalwindow{
     color: rgb(34, 34, 34) !important;
 }
+.contact-info{
+     color: rgb(34, 34, 34) !important;
+}
+.celphone{
+    color: rgb(132, 14, 201);
+}
 
 /*.despedacar {
     position: relative;
