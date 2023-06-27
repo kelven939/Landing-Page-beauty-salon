@@ -212,7 +212,7 @@ input{
     color: rgb(132, 14, 201);
 }
 ol.list-services{
-    list-style-type: decimal !important;
+    list-style: decimal !important;
 }
 
 /*.despedacar {
