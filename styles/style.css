@@ -207,7 +207,7 @@ input{
 .list-services{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     color: rgb(132, 14, 201);
 }
