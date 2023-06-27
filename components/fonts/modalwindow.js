@@ -10,6 +10,12 @@ var servicesLink = document.getElementById("servicesLink");
 // Obtém a referência do modal de Serviços
 var servicesModal = document.getElementById("servicesModal");
 
+// Obtém a referência do link "Sobre Nós"
+var aboutLink = document.getElementById("aboutLink");
+
+// Obtém a referência do modal de Sobre Nós
+var aboutModal = document.getElementById("aboutModal");
+
 // Obtém a referência do elemento de fechar (x) do modal
 var closeBtns = document.getElementsByClassName("close");
 
@@ -21,6 +27,11 @@ contactLink.onclick = function() {
 // Define o evento de clique no link "Serviços"
 servicesLink.onclick = function() {
   servicesModal.style.display = "block";
+};
+
+// Define o evento de clique no link "Sobre Nós"
+aboutLink.onclick = function() {
+  aboutModal.style.display = "block";
 };
 
 // Define os eventos de clique nos botões de fechar (x)
