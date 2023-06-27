@@ -155,20 +155,6 @@ input{
   .salao-beleza:hover + .chuva-estrelas::before {
     animation: chuva-animation 1s infinite;
   }
-  
-  @media (max-width: 768px) {
-    .chuva-estrelas::before {
-      width: 5vw;
-      height: 5vw;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .chuva-estrelas::before {
-      width: 8vw;
-      height: 8vw;
-    }
-  }  
 
 
 .modal {
@@ -201,7 +187,7 @@ input{
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: rgb(34, 34, 34);
   text-decoration: none;
   cursor: pointer;
 }
