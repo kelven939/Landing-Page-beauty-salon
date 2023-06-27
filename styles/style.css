@@ -210,6 +210,8 @@ input{
     align-items: flex-start;
     flex-direction: column;
     color: rgb(132, 14, 201);
+}
+ol.list-services{
     list-style-type: decimal !important;
 }
 
