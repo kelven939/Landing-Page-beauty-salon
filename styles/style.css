@@ -206,7 +206,7 @@ input{
   cursor: pointer;
 }
 .title-modalwindow{
-    color: red !important;
+    color: rgb(34, 34, 34) !important;
 }
 
 /*.despedacar {
