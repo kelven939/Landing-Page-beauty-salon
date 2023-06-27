@@ -214,6 +214,10 @@ input{
 .celphone{
     color: rgb(132, 14, 201);
 }
+.email-infos{
+    text-decoration: none;
+    color: rgb(132, 14, 201);
+}
 
 /*.despedacar {
     position: relative;
