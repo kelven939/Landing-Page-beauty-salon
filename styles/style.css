@@ -81,8 +81,14 @@ form{
     width: 70%;
 }
 
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px dotted black;
+}
 form [type="submit"]{
-    outline-style: dotted;
+   /* outline-style: dotted; */
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14, 201);
