@@ -82,7 +82,9 @@ form{
 }
 
 .circle {
-  border: 1px dotted rgb(132, 14, 201);
+    height: 50px;
+    width: 50%;
+    border: 1px dotted rgb(132, 14, 201);
 }
 form [type="submit"]{
    /* outline-style: dotted; */
