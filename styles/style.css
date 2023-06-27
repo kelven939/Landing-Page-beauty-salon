@@ -82,10 +82,8 @@ form{
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px dotted black;
+    border-radius: 50%;
+    border: 1px dotted black;
 }
 form [type="submit"]{
    /* outline-style: dotted; */
