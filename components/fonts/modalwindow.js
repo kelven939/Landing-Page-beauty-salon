@@ -1,25 +1,39 @@
-// Obtém a referência do link
+// Obtém a referência do link "Contactos"
 var contactLink = document.getElementById("contactLink");
 
-// Obtém a referência do modal
-var modal = document.getElementById("myModal");
+// Obtém a referência do modal de Contactos
+var contactModal = document.getElementById("contactModal");
 
-// Obtém a referência do elemento de fechar (x)
-var closeBtn = document.getElementsByClassName("close")[0];
+// Obtém a referência do link "Serviços"
+var servicesLink = document.getElementById("servicesLink");
 
-// Define o evento de clique no link
+// Obtém a referência do modal de Serviços
+var servicesModal = document.getElementById("servicesModal");
+
+// Obtém a referência do elemento de fechar (x) do modal
+var closeBtns = document.getElementsByClassName("close");
+
+// Define o evento de clique no link "Contactos"
 contactLink.onclick = function() {
-  modal.style.display = "block";
+  contactModal.style.display = "block";
 };
 
-// Define o evento de clique no botão de fechar (x)
-closeBtn.onclick = function() {
-  modal.style.display = "none";
+// Define o evento de clique no link "Serviços"
+servicesLink.onclick = function() {
+  servicesModal.style.display = "block";
 };
+
+// Define os eventos de clique nos botões de fechar (x)
+for (var i = 0; i < closeBtns.length; i++) {
+  closeBtns[i].onclick = function() {
+    var modal = this.parentElement.parentElement;
+    modal.style.display = "none";
+  };
+}
 
 // Fecha o modal se o usuário clicar fora da área do modal
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target.classList.contains("modal")) {
+    event.target.style.display = "none";
   }
 };
