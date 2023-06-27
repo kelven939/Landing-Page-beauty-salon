@@ -205,6 +205,9 @@ input{
   text-decoration: none;
   cursor: pointer;
 }
+.title-modalwindow{
+    color: red;
+}
 
 /*.despedacar {
     position: relative;
