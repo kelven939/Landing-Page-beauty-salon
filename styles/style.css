@@ -212,6 +212,9 @@ input{
     color: rgb(132, 14, 201);
      list-style-type: decimal !important;
 }
+.list-services li{
+     list-style-type: decimal !important;
+}
 
 /*.despedacar {
     position: relative;
