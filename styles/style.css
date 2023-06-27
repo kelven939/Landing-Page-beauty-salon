@@ -83,7 +83,7 @@ form{
 
 form [type="submit"]{
    /* outline-style: dotted; */
-    border: 2px dotted #FFFFFF;
+    border: 1px dotted #FFFFFF;
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14, 201);
