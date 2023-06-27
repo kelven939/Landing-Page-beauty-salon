@@ -37,6 +37,21 @@
     }
 }
 
+/* Estilos adicionais para tornar a estrela responsivo */
+@media (max-width: 768px) {
+    .chuva-estrelas::before {
+      width: 5vw;
+      height: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chuva-estrelas::before {
+      width: 8vw;
+      height: 8vw;
+    }
+  }
+
 /* Estilos adicionais para tornar o modal responsivo */
 @media (max-width: 768px) {
   .modal-content {
