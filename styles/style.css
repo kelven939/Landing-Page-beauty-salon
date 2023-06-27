@@ -204,6 +204,9 @@ input{
     text-decoration: none;
     color: rgb(132, 14, 201);
 }
+.list-services{
+    color: rgb(132, 14, 201);
+}
 
 /*.despedacar {
     position: relative;
