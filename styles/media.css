@@ -20,6 +20,9 @@
     input{
         align-self: center;
     }
+    .btn-input{
+        align-self: center;
+    }
 
     img{
         display: none;
