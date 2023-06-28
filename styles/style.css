@@ -189,7 +189,7 @@ input{
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #fefefe;
   text-decoration: none;
   cursor: pointer;
 }
