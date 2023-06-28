@@ -74,6 +74,9 @@ img{
     width: 650px;
     height: 450px;
 }
+.imagenWoman{
+    margin-left: 25px;
+}
 
 form{
     display: flex;
