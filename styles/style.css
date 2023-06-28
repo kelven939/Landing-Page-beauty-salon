@@ -177,6 +177,7 @@ input{
   border: 1px solid #888;
   width: 80%;
   max-width: 600px; /* Define um tamanho máximo para o modal */
+ border-radius: 10px;
 }
 
 .close {
