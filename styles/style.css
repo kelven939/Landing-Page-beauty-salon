@@ -171,7 +171,7 @@ input{
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: rgb(34, 34, 34);
   margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
